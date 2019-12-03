@@ -2,7 +2,6 @@ import React from 'react';
 import { StyleSheet, Text, View,Image,Dimensions} from 'react-native';
 import { SwipeListView } from 'react-native-swipe-list-view';
 const screenWidth = Math.round(Dimensions.get('window').width);
-const screenHeight = Math.round(Dimensions.get('window').height);
 
 const TtdComponent = () => {
   const Data = [
@@ -61,7 +60,7 @@ const TtdComponent = () => {
               </View>
             
           )}
-          keyExtractor={(item, index) => index.toString()}
+          keyExtractor={(index) => index.toString()}
           leftOpenValue={75}
           rightOpenValue={-75}
         />

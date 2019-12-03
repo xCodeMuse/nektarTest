@@ -59,7 +59,7 @@ const DealLeadsDescScreen = (props) => {
             uri={item.uri}
           />
         )}
-        keyExtractor={(item, index) => index.toString()}
+        keyExtractor={(index) => index.toString()}
       />
         
 

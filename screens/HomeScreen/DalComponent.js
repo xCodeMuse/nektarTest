@@ -89,7 +89,7 @@ const DalComponent = (props) => {
           />
         )}
         numColumns={2}
-        keyExtractor={(item, index) => item.id.toString()}
+        keyExtractor={(item) => item.id.toString()}
       />
        </View>
     </View>

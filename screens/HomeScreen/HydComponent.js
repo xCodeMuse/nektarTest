@@ -3,7 +3,6 @@ import { StyleSheet, Text, View,Image ,Dimensions} from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
 const screenWidth = Math.round(Dimensions.get('window').width);
-const screenHeight = Math.round(Dimensions.get('window').height);
 
 const HydComponent = () => {
 
